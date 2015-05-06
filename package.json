@@ -4,8 +4,9 @@
   "description": "Starter template for REST API services that use restify",
   "main": "index.js",
   "scripts": {
-    "dev": "export NODE_ENV=dev;nodemon server/server -e js,jade",
-    "start": "export NODE_ENV=prod;node server/server",
+    "dev": "export NODE_ENV=development;nodemon server/server -e js",
+    "start": "export NODE_ENV=production;pm2 start -i 0 server/server.js",
+    "stop": "pm2 stop server/server.js",
     "test": "grunt"
   },
   "keywords": [],
