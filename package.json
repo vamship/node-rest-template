@@ -31,7 +31,8 @@
     "sinon": "^1.10.2",
     "supertest": "^0.13.0",
     "time-grunt": "^0.3.2",
-    "wysknd-lib": "git+https://github.com/vamship/wysknd-lib.git#v0.0.2"
+    "wysknd-lib": "0.0.2",
+    "wysknd-test": "^1.1.1"
   },
   "repository": {
     "type": "git",
