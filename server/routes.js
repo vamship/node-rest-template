@@ -40,6 +40,6 @@ module.exports = {
         }
 
         // Mount the routes at the specified base paths.
-        addRoutes('/public', require('./routes/public'));
+        addRoutes('/public', require('./routes/public-routes'));
     }
 };
