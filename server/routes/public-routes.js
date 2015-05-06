@@ -18,13 +18,13 @@ module.exports = {
          * Show home page.
          */
         app.get(getPath('/'),
-                routesHandler.getHomePageHandler());
+            routesHandler.getHomePageHandler());
 
         /**
          * Request for application status.
          */
         app.get(getPath('/__status'),
-                routesHandler.getAppStatusHandler());
+            routesHandler.getAppStatusHandler());
 
         return app;
     }

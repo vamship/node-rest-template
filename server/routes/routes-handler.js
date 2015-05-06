@@ -16,7 +16,7 @@ function RoutesHandler() {
 /**
  * Method that wraps an existing handler in a try/catch block to handle
  * exceptions thrown during synchronous execution.
- * 
+ *
  * @class RoutesHandler
  * @protected
  * @param {Function} handler The handler to wrap
