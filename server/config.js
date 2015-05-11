@@ -69,6 +69,7 @@ function _getPackageInfo() {
 function _getApplicationConfig(appName) {
     // Read configuration settings from the rc file, and set defaults
     // when no settings are available in the file.
+    appName = appName.replace(/-/g, '_');
     return _rc(appName, {
         port: 3001,
         rootPath: '/',
