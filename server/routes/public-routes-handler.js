@@ -20,7 +20,7 @@ _util.inherits(PublicRoutesHandler, RoutesHandler);
  * Handles a request to show the home page.
  *
  * @method getHomePageHandler
- * @return {Function} A handler that conforms to expressjs' handler
+ * @return {Function} A handler that conforms to restify's handler
  *                    signature.
  */
 PublicRoutesHandler.prototype.getHomePageHandler = function() {
@@ -34,7 +34,7 @@ PublicRoutesHandler.prototype.getHomePageHandler = function() {
  * Handles a request to retrieve current server status.
  *
  * @method getAppStatusHandler
- * @return {Function} A handler that conforms to expressjs' handler
+ * @return {Function} A handler that conforms to restify's handler
  *                    signature.
  */
 PublicRoutesHandler.prototype.getAppStatusHandler = function() {
