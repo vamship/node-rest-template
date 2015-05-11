@@ -272,17 +272,16 @@ module.exports = function(grunt) {
          */
         express: {
             options: {
-                debug: true
+                debug: true,
+                node_env: 'test'
             },
             dev: {
                 options: {
-                    node_env: 'dev',
                     script: SERVER.getChildPath('server.js')
                 }
             },
             build: {
                 options: {
-                    node_env: 'test',
                     script: SERVER_BUILD.getChildPath('server.js')
                 }
             }
